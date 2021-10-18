@@ -7,7 +7,7 @@ def transferForecastToSftpLocation(configDict: dict, filesNameList:List) -> bool
 
     Args:
         configDict (dict): app config
-        filesNameList (List): List of file names ["07_09_2021_WR.xlsx", "08_09_2021_WR.xlsx".... etc]
+        filesNameList (List): List of file names entire excel path ["D://forecastCsvDumps//07_09_2021_WR.xlsx", "D://forecastCsvDumps//08_09_2021_WR.xlsx".... etc]
 
     Returns:
         bool: return true is transfer successfull
